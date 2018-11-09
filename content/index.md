@@ -1,25 +1,31 @@
 ---
 title: "Min fina titel"
+views:
+    Byline test:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
+
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/jo.jpg?w=300" class="right"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+**Detta är min me-sida i kursen design.**
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Mitt namn är Johanna Attefalk, jag är 29 år gammal, född och uppvuxen i Kullavik, en liten ort strax söder om Göteborg. För 3 år sedan så slängde jag 90% av allt jag ägde, packade in de resterade procenten och lämnade Sverige. Destination Cagliari, huvudstaden på ön Sardinen, som ligger mitt i medelhavet, tillhörande Italien.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Här driver jag mitt företag, där jag designar och säljer virkmönster. Jag jobbar mycket med att designa min hemsida, sociala medier och bild editering. Jag har köpt min egen domän och anlitat en designer för att göra min branding. Jag är uppvuxen med två programmerande föräldrar men tror att det var under dessa 5 år med mitt företag som intresset växte för programmering när jag såg vilket otrolig kraft den har i världen och hur allt digitaliseras.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Jag och min sambo har 3 små hundar och vi spenderar mycket tid med dem samt med andra som har hundar. Så det kan man säga är mitt intresse. Annars så älskar jag att meditera och när jag får tiden till gör jag även yoga. Har jag väldigt mycket tid, som inte händer allt för ofta så älskar jag att vandra i bergen. Bor man på en ö så är vandra i bergen det mest fantastiska man kan göra med en magisk utsikt överallt.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Jag programmerade inte som barn eller tonåring. Dock som jag nämnde så gick båda mina föräldrar på Göteborgs universitet när jag var liten, även min farbror, så jag växte upp i den världen. Min pappa fortsatte att undervisa programmering på GU och fortsatte sedan att starta sitt eget konsult företag med min farbror. Där jag jobbade under gymnasiet med läkemedelsstudier för AstraZeneca.  
 
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+/Johanna

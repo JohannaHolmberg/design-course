@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,7 +12,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
@@ -21,8 +21,11 @@ Om
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+[FIGURE src=image/design.png?w=700"]
+Härligt med mer css! Det är kul och enkelt, dock inte design i sig själv dock!
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Här är en länk till sidans GitHub repo:
+<a href="https://github.com/dbwebb-se/design">Design</a>
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+Här är en länk till mitt GitHub repo:
+<a href="https://github.com/JohannaHolmberg/design-course">design-course</a>
