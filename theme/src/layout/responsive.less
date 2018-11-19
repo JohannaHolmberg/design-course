@@ -1,0 +1,123 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+
+@media (max-width: 1280px) {
+    .site-logo {
+        display: none;
+    }
+
+    .wrap-all {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+    .rm-small {
+        display: none;
+    }
+}
+
+@media (max-width: 980px) {
+    .site-logo {
+        display: none;
+    }
+    html {
+        background-color: #000;
+    }
+    body {
+        width: 100%;
+    }
+    .footer-column {
+      padding: 7px;
+    }
+    .design-photo img {
+        width: 95%;
+    }
+}
+
+
+@media (max-width: 680px) {
+    .region-main {
+        padding: .5em;
+    }
+    .article h1{
+        font-size: 2em;
+    }
+    .block ul {
+        margin-left: -2em;
+    }
+    .block li {
+        padding: 5px;
+    }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+    .site-logo {
+        display: none;
+    }
+
+    html {
+        background-color: #000;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    // responsive menu
+    .rm-small {
+        display: none;
+    }
+
+    /* Block normal menu from small screens*/
+    .rm-desktop {
+        display: none;
+    }
+
+    /* Main -------------------------------------- */
+    .figure.right img {
+        width: 50%;
+        float: right;
+        padding-left: .5em;
+        padding-bottom: .5em;
+    }
+
+    .wrap-sidebar {
+        width: 95%;
+    }
+    .region-main {
+        width: 95%;
+    }
+
+
+    /* Footer -------------------------------------- */
+
+    .figure.left img {
+      width: 25%;
+      float: left;
+      padding: 5px;
+    }
+
+    .region-footer h4 {
+      font-size: 1em;
+    }
+
+    .author-byline p {
+      padding-top: 1em;
+      width: 90%;
+    }
+
+    .inner-wrap-footer {
+      margin: .5em;
+    }
+    .footer-column {
+      padding: 7px;
+      width: 90%;
+      font-size: 2em;
+    }
+}

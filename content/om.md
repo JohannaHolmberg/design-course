@@ -21,7 +21,7 @@ Om
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-[FIGURE src=image/design.png?w=700"]
+[FIGURE src=image/design.png?w=700 class="design-photo"]
 Härligt med mer css! Det är kul och enkelt, dock inte design i sig själv dock!
 
 Här är en länk till sidans GitHub repo:

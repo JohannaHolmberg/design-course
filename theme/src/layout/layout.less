@@ -1,0 +1,153 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header -------------------------------------- */
+.site-logo img {
+  display: none;
+}
+.region-flash img {
+  width: 100%;
+}
+
+
+/* Navbar -------------------------------------- */
+.rm-navbar li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    //border: solid pink;
+    background-color: white;
+}
+
+.rm-navbar a {
+    text-decoration: none
+}
+
+// gör om rm.desktop till LESS genom att lägga ihop allt!
+.rm-desktop li ul {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.rm-desktop li:hover ul {
+    display: block;
+    //border: solid blue;
+}
+
+.rm-desktop li ul li {
+    display: block;
+//    margin-left: -50px;
+//    margin-top: 10px;
+}
+#rm-menu li {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 1em;
+}
+
+#rm-menu a {
+    //display: block;
+    //background-color: yellow;
+}
+.rm-navbar {
+    display: block;
+}
+/* Main -------------------------------------- */
+.outer-wrap.outer-wrap-main {
+  margin: 10px;
+}
+.figure.right img {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.stylechooser {
+    width: 98%;
+}
+
+/* Redovisning --------------------------------- */
+
+.wrap-sidebar {
+    width: 30%;
+    float: left;
+}
+
+.region-main {
+    width: 60%;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+.block {
+    .section-header {
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 5px;
+    }
+    a {
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: none;
+    }
+}
+
+/* Byline -------------------------------------- */
+
+.figure.left img {
+  float: left;
+  padding: 15px;
+}
+.author-byline p {
+  padding-top: 40px;
+  width: 90%;
+}
+/* Footer -------------------------------------- */
+.outer-wrap.outer-wrap-footer {
+  background-color: grey;
+  clear: both;
+}
+.inner-wrap-footer {
+  margin: 10px;
+}
+
+.footer-column {
+  width: 30%;
+  float: left;
+  padding: 2px;
+}
+.region-footer h4 {
+  font-size: 2em;
+}
+
+.site-footer {
+  clear: both;
+  padding: 5px;
+}

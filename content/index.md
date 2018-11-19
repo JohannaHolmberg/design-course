@@ -13,7 +13,7 @@ views:
 
 Min me-sida i kursen design
 =========================
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
 [FIGURE src="image/jo.jpg?w=300" class="right"]
 
 **Detta är min me-sida i kursen design.**
@@ -28,4 +28,4 @@ Jag och min sambo har 3 små hundar och vi spenderar mycket tid med dem samt med
 
 Jag programmerade inte som barn eller tonåring. Dock som jag nämnde så gick båda mina föräldrar på Göteborgs universitet när jag var liten, även min farbror, så jag växte upp i den världen. Min pappa fortsatte att undervisa programmering på GU och fortsatte sedan att starta sitt eget konsult företag med min farbror. Där jag jobbade under gymnasiet med läkemedelsstudier för AstraZeneca.  
 
-/Johanna
+//Johanna
