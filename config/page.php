@@ -21,7 +21,8 @@ return [
                 // Change here to set another default stylesheet
                 //"css/dbwebb-se.min.css",
                 //"css/kmom02.min.css",
-                "css/kmom03.min.css",
+                //"css/kmom04.min.css",
+                "css/04_dark.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",

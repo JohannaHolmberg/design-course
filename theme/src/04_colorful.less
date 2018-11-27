@@ -1,0 +1,239 @@
+@import "kmom04.less";
+@import "layout/04_vgrid_responsive.less";
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+html {
+    background-color: #253A40;
+}
+.outer-wrap {
+  background-color: #21758C;
+}
+
+
+.region-header-col-1 {
+    #desinax-vgrid.column(@columns - 20);
+}
+
+.region-header-col-3 {
+    #desinax-vgrid.column(@columns - 22);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(@columns - 6);
+}
+
+a {
+    font-family: 'Patua One', cursive;
+}
+p {
+    color: #D2D7D7
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #D2D7D7;
+    font-family: 'Patua One', cursive;
+}
+
+/**
+ * links
+ */
+
+ /* unvisited link */
+ a:link {
+     color: #595304;
+ }
+
+ /* visited link */
+ a:visited {
+     color: #D9CE55;
+ }
+
+ /* mouse over link */
+ a:hover {
+     color: #D9CE55;
+ }
+
+ /* selected link */
+ a:active {
+     color: #D9CE55;
+ }
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header -------------------------------------- */
+.site-logo img {
+    display: none;
+}
+
+.site-logo-text a {
+    color: #253A40;
+}
+.inner-wrap-flash {
+     #desinax-vgrid.column(@columns - 4);
+     #desinax-vgrid.push(2);
+}
+
+.breadcrumb-list ul li {
+    background-color: #21758C;
+}
+
+
+/* Navbar -------------------------------------- */
+.rm-navbar li {
+    display: inline-block;
+    //padding: 2px;
+    font-size: 1em;
+    color: #990837;
+    background-color: transparent;
+}
+
+.rm-navbar a {
+    text-decoration: none
+}
+
+.rm-navbar {
+    display: block;
+    margin: 1em;
+}
+
+// gör om rm.desktop till LESS genom att lägga ihop allt!
+.rm-desktop li ul {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #21758C;
+}
+.rm-desktop li:hover ul {
+    display: block;
+}
+
+.rm-desktop li ul li {
+    display: block;
+}
+
+#rm-menu li {
+    background-color: transparent;
+    color: #D2D7D7;
+    width: 100%;
+    font-size: 1em;
+}
+
+#rm-menu a {
+    //display: block;
+    //background-color: yellow;
+}
+.rm-button {
+    background-color: transparent;
+    padding: .6em .7em .1em .6em;
+}
+
+.rm-max.rm-navbar {
+    top: 7px;
+}
+
+
+/* Main -------------------------------------- */
+.outer-wrap.outer-wrap-main {
+  margin: 10px;
+}
+.figure.right img {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.stylechooser {
+    width: 98%;
+}
+
+/* Redovisning --------------------------------- */
+
+.wrap-sidebar {
+    width: 30%;
+    float: left;
+}
+
+.region-main {
+    width: 60%;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+.block {
+    .section-header {
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 5px;
+        background-color: transparent;
+    }
+    li {
+        background-color: transparent;
+    }
+    a {
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: none;
+    }
+}
+
+/* Byline -------------------------------------- */
+
+//.figure.left img {
+//  float: left;
+//  padding: 15px;
+//}
+//.author-byline p {
+//  padding-top: 40px;
+//  width: 90%;
+//}
+/* Footer -------------------------------------- */
+.outer-wrap.outer-wrap-footer {
+  //background-color: #253A40;
+  clear: both;
+}
+.inner-wrap-footer {
+    #desinax-vgrid.column(@columns);
+    #desinax-vgrid.push(1);
+    background-color: #253A40;
+}
+
+.footer-column {
+  width: 30%;
+  float: left;
+  padding: 2px;
+}
+.region-footer h4 {
+  font-size: 2em;
+}
+
+.region.footer {
+    background-color: #253A40;
+}
+
+.site-footer {
+  clear: both;
+  padding: 5px;
+}

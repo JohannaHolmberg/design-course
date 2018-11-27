@@ -1,0 +1,217 @@
+@import "kmom04.less";
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+//3B6B8B blue accentfärg
+
+
+/**
+ * Fonts
+ */
+@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline|Londrina+Solid|Megrim|Raleway+Dots|Yatra+One');
+
+
+.region-header-col-1 {
+    #desinax-vgrid.column(@columns - 24);
+}
+
+.region-header-col-3 {
+    #desinax-vgrid.column(@columns - 22);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(@columns - 2);
+}
+
+html {
+    background-color: #D7D6D6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #4B4B4B;
+}
+
+p {
+    margin-bottom: 1 * @magicNumber;
+    color: #4B4B4B;
+}
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header -------------------------------------- */
+
+.site-logo img {
+  display: none;
+}
+.region-flash img {
+  display: none;
+}
+.site-logo-text {
+    display: none;
+}
+
+/* Navbar -------------------------------------- */
+//Hamburger menu
+.rm-navbar {
+        display: block;
+        background-color: white;
+    }
+    li {
+        display: inline-block;
+        padding: 5px;
+        font-size: 15px;
+        background-color: white;
+
+    }
+    a {
+        text-decoration: none;
+        font-family: 'Yatra One', cursive;
+        color: #4B4B4B;
+    }
+rm-default rm-mobile rm-clicked
+//menu hide on small screens
+.region-header-col-1,
+.region-header-col-2 {
+    display: none;
+}
+
+//.rm-desktop li ul {
+//    display: none;
+//    position: absolute;
+//    z-index: 1;
+//    }
+//    li:hover ul {
+//        display: block;
+//    }
+//    li ul li {
+//    display: block;
+//    }
+//    a {
+//        padding: 5px;
+//        font-size: 1em;
+//    }
+
+#rm-menu li {
+    background-color: white;
+    color: black; // change to my colorscheme
+    width: 100%;
+    font-size: 1em;
+    color: #4B4B4B;
+}
+
+/* Main -------------------------------------- */
+.outer-wrap.outer-wrap-main {
+    margin: 10px;
+}
+
+.route-index article {
+    #desinax-vgrid.column(@columns);
+    margin-bottom: 7 * @magicNumber;
+    column-count: 3;
+    margin-top: 7 * @magicNumber;
+    }
+    p {
+        font-size: .9em;
+    }
+    h1 {
+    column-span: all;
+    font-family: 'Yatra One', cursive;
+    }
+
+
+.right img {
+    height: 10 * @magicNumber;
+    padding: @magicNumber;
+}
+
+.figure.right img {
+  float: right;
+  padding-left: 20px;
+  padding-bottom: @magicNumber;
+}
+
+.stylechooser {
+    width: 98%;
+}
+
+.about-me {
+    column-count: 3;
+}
+/* Redovisning --------------------------------- */
+
+//.wrap-sidebar {
+//    width: 30%;
+//    float: left;
+//}
+//
+//.region-main {
+//    width: 60%;
+//    float: left;
+//    padding-bottom: 5px;
+//}
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+.block {
+    .section-header {
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 5px;
+    }
+    a {
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: none;
+    }
+}
+
+/* Byline -------------------------------------- */
+
+.figure.left img {
+    display: none;
+}
+.author-byline p {
+  display: none;
+}
+/* Footer -------------------------------------- */
+.outer-wrap.outer-wrap-footer {
+    display: none;
+  //background-color: grey; // chyange color
+  //clear: both;
+}
+//.inner-wrap-footer {
+//  margin: 10px;
+//}
+//
+//.footer-column {
+//  width: 30%;
+//  float: left;
+//  padding: 2px;
+//}
+//.region-footer h4 {
+//  font-size: 2em;
+//}
+//
+//.site-footer {
+//  clear: both;
+//  padding: 5px;
+//  color: #000;
+//}

@@ -1,14 +1,65 @@
+@import "kmom04.less";
+@import "layout/04_vgrid_responsive.less";
+
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
+html {
+    background-color: #000;
+}
+.outer-wrap {
+  background-image: linear-gradient(to left, #202121 , #000);
+}
 
 
+.region-header-col-1 {
+    #desinax-vgrid.column(@columns - 20);
+}
+
+.region-header-col-3 {
+    #desinax-vgrid.column(@columns - 22);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(@columns - 6);
+}
+
+
+p {
+    color: #D2D7D7
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #D2D7D7;
+}
 
 /**
- * Variables
+ * links
  */
 
+ /* unvisited link */
+ a:link {
+     color: #3B6B8B;
+ }
+
+ /* visited link */
+ a:visited {
+     color: #D2D7D7;
+ }
+
+ /* mouse over link */
+ a:hover {
+     color: #3B6B8B;
+ }
+
+ /* selected link */
+ a:active {
+     color: #3B6B8B;
+ }
 
 /**
  * General layout
@@ -20,24 +71,31 @@
 
 /* Header -------------------------------------- */
 .site-logo img {
-  display: none;
+    display: none;
 }
-.region-flash img {
-  width: 100%;
+
+.inner-wrap-flash {
+     #desinax-vgrid.column(@columns - 4);
+     #desinax-vgrid.push(2);
 }
+
 
 
 /* Navbar -------------------------------------- */
 .rm-navbar li {
     display: inline-block;
-    padding: 10px;
-    font-size: 20px;
-    //border: solid pink;
-    background-color: white;
+    //padding: 2px;
+    font-size: 1em;
+    background-color: #D2D7D7;
 }
 
 .rm-navbar a {
     text-decoration: none
+}
+
+.rm-navbar {
+    display: block;
+    margin: 1em;
 }
 
 // gör om rm.desktop till LESS genom att lägga ihop allt!
@@ -48,17 +106,15 @@
 }
 .rm-desktop li:hover ul {
     display: block;
-    //border: solid blue;
 }
 
 .rm-desktop li ul li {
     display: block;
-//    margin-left: -50px;
-//    margin-top: 10px;
 }
+
 #rm-menu li {
-    background-color: black;
-    color: white;
+    background-color: #202121;
+    color: #D2D7D7;
     width: 100%;
     font-size: 1em;
 }
@@ -67,9 +123,16 @@
     //display: block;
     //background-color: yellow;
 }
-.rm-navbar {
-    display: block;
+.rm-button {
+    background-color: blue;
+    padding: .6em .7em .1em .6em;
 }
+
+.rm-max.rm-navbar {
+    top: 7px;
+}
+
+
 /* Main -------------------------------------- */
 .outer-wrap.outer-wrap-main {
   margin: 10px;
@@ -91,7 +154,7 @@
     float: left;
 }
 
-.region-main.has-sidebar-left {
+.region-main {
     width: 60%;
     float: left;
     padding-bottom: 5px;
@@ -110,6 +173,10 @@
         font-size: 1.5em;
         text-decoration: none;
         padding: 5px;
+        background-color: #000;
+    }
+    li {
+        background-color: transparent;
     }
     a {
         text-decoration: none;
@@ -121,21 +188,23 @@
 
 /* Byline -------------------------------------- */
 
-.figure.left img {
-  float: left;
-  padding: 15px;
-}
-.author-byline p {
-  padding-top: 40px;
-  width: 90%;
-}
+//.figure.left img {
+//  float: left;
+//  padding: 15px;
+//}
+//.author-byline p {
+//  padding-top: 40px;
+//  width: 90%;
+//}
 /* Footer -------------------------------------- */
 .outer-wrap.outer-wrap-footer {
   background-color: grey;
   clear: both;
 }
 .inner-wrap-footer {
-  margin: 10px;
+    #desinax-vgrid.column(@columns);
+    #desinax-vgrid.push(1);
+  //margin: 10px;
 }
 
 .footer-column {

@@ -14,11 +14,9 @@ views:
 Min me-sida i kursen design
 =========================
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
-[FIGURE src="image/jo.jpg?w=400" class="right"]
+[FIGURE src="image/jo.jpg?w=500" class="right"]
 
 **Detta är min me-sida i kursen design.**
-
-
 
 Mitt namn är Johanna Attefalk, jag är 29 år gammal, född och uppvuxen i Kullavik, en liten ort strax söder om Göteborg. För 3 år sedan så slängde jag 90% av allt jag ägde, packade in de resterade procenten och lämnade Sverige. Destination Cagliari, huvudstaden på ön Sardinen, som ligger mitt i medelhavet, tillhörande Italien.
 
