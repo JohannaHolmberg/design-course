@@ -89,7 +89,7 @@ Jag tror att Ravelery vill vara lite annorlunda. Det viktigaste här är mönstr
 
 
 ###Craftsy
-------
+
 
 [FIGURE src=image/craftsy.png?w=700 class="design-photo"]
 
@@ -136,7 +136,7 @@ Alla tre sidorna använde också Sans för hela webbplatsen, dock hade Etsy San-
 
 Vad jag märkte var att det spelade störst roll att använda färger för att skapa känsla. Att anväda två olika nyanser av svart vid varandra för att skapa en effekt. Texten på en produkt kunde vara något större och mörkare medans en mer informativ text hade en ljusare nyans och var något mindre.
 
-Alla tre sidorna har använt mycket white space för att lägga fokuset på bilderna. På deras produkter, meningen med deras sida. 
+Alla tre sidorna har använt mycket white space för att lägga fokuset på bilderna. På deras produkter, meningen med deras sida.
 
 
 Övrigt
