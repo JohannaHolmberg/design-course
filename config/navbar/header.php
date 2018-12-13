@@ -64,7 +64,7 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
-            "text" => "Markdown",
+            "text" => "Md",
             "url" => "test",
             "title" => "Test for Markdown",
         ],

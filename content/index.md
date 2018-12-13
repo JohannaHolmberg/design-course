@@ -14,11 +14,22 @@ views:
 Min me-sida i kursen design
 =========================
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
-[FIGURE src="image/jo.jpg?w=500" class="right"]
+[FIGURE src="image/jo.jpg?w=600" class="right"]
 
 **Detta är min me-sida i kursen design.**
 
 Mitt namn är Johanna Attefalk, jag är 29 år gammal, född och uppvuxen i Kullavik, en liten ort strax söder om Göteborg. För 3 år sedan så slängde jag 90% av allt jag ägde, packade in de resterade procenten och lämnade Sverige. Destination Cagliari, huvudstaden på ön Sardinen, som ligger mitt i medelhavet, tillhörande Italien.
+
+
+[FIGURE src=image/kiwi.jpg?w=150&h=150&crop-to-fit class="dogs" caption="Kiwi"]
+
+[FIGURE src=image/chopper.jpg?w=150&h=150&crop-to-fit class="dogs" caption="Chopper"]
+
+[FIGURE src=image/milu.jpg?w=150&h=150&crop-to-fit&r=-90 class="dogs" caption="Milu"]
+
+
+
+
 
 Här driver jag mitt företag, där jag designar och säljer virkmönster. Jag jobbar mycket med att designa min hemsida, sociala medier och bild editering. Jag har köpt min egen domän och anlitat en designer för att göra min branding. Jag är uppvuxen med två programmerande föräldrar men tror att det var under dessa 5 år med mitt företag som intresset växte för programmering när jag såg vilket otrolig kraft den har i världen och hur allt digitaliseras.
 
