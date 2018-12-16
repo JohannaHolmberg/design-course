@@ -1,6 +1,6 @@
 ---
 ---
-## Design Element
+##07 Design Element
 
 
 När jag valde vilka design element jag skulle fokusera och lära mig mer om så tog jag en titt på min sida och funderade på hur man kunde liva upp varje element.

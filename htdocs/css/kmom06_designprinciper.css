@@ -4754,10 +4754,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /* 16px - 100%/1.5 */
 html {
   overflow-y: scroll;
+  background-color: #4D543B;
   font-size: 100%;
+  max-width: none;
 }
 body {
-  margin: 0 auto;
+  width: auto;
+  margin: 0;
   padding: 0;
   color: #333;
   background-color: #fff;
@@ -4773,12 +4776,7 @@ p {
 h1 {
   font-size: 2.375em;
   margin-bottom: 24px;
-  font-family: 'Indie Flower', cursive;
-}
-@media screen and (min-width: 912px) {
-  .blog-list-item h1 {
-    clear: both;
-  }
+  font-family: 'Changa', sans-serif;
 }
 h1,
 h2,
@@ -5157,7 +5155,7 @@ hr::after {
 /**
  * My own settings, not currently in their own module.
  */
-/* Grid vertical for kmom03 */
+/* Grid vertical for kmom06 */
 /**
  * Import the vertical grid.
  */
@@ -5215,28 +5213,16 @@ hr::after {
   font-weight: 200;
   src: local('Source Code Pro ExtraLight'), local('SourceCodePro-ExtraLight'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt8srDs-cv.ttf) format('truetype');
 }
-@font-face {
-  font-family: 'Indie Flower';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuC.ttf) format('truetype');
-}
-html {
-  background-image: url("../../htdocs/img/background.jpg");
-  background-size: cover;
-}
 body {
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
-}
-h1 {
-  font-family: 'Indie Flower', cursive;
+  max-width: none;
 }
 .row {
   display: block;
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
+  background-color: #0f0;
+  background-color: transparent;
 }
 .row::after {
   content: "";
@@ -5249,9 +5235,7 @@ h1 {
   opacity: 0.5;
 }
 .inner-wrap-main {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1100px;
+  margin: 0 auto;
 }
 .inner-wrap-header,
 .inner-wrap-footer {
@@ -5269,32 +5253,28 @@ h1 {
 }
 .site-logo-text a {
   font-family: 'Changa', sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   text-decoration: none;
   color: #333;
-  margin-left: 0.5em;
-}
-.site-logo-text img {
-  display: none;
 }
 .region-header-col-1 {
   display: inline;
   float: left;
-  width: 7.29166667%;
+  width: 15.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-header-col-3 {
   display: inline;
   float: left;
-  width: 3.125%;
+  width: 7.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-header-col-2 {
   display: inline;
   float: left;
-  width: 86.45833333%;
+  width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
@@ -5392,21 +5372,7 @@ h1 {
   float: right;
   padding: 0.5em;
   width: 15em;
-}
-.figure.dogs {
-  float: left;
-  padding-right: 1em;
-  clear: both;
-}
-.figure.dogs img {
-  border-radius: 50%;
-  float: left;
   box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
-}
-.figure.dogs p {
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.6em;
 }
 /* Header -------------------------------------- */
 .site-logo img {
@@ -5415,40 +5381,20 @@ h1 {
 /* Navbar -------------------------------------- */
 .rm-navbar {
   display: block;
-  position: relative;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transform-style: flat;
-  transition: all 250ms ease-out;
-  margin-bottom: 1em;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
 }
-.rm-navbar:before,
-.rm-navbar:after {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  transition: all 250ms ease-out;
-}
-.rm-navbar li {
+li {
   display: inline-block;
-  background-color: white;
-}
-.rm-navbar a {
-  text-decoration: none;
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.1em;
-}
-.rm-desktop li {
+  background-color: #4D543B;
   box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+  color: white;
+  margin-right: 0.4em;
 }
-.rm-desktop li a {
-  padding: 0.3em;
-  margin: 0;
-}
-.rm-desktop li:hover {
-  box-shadow: none;
+a {
+  text-decoration: none;
+  font-family: 'Changa', sans-serif;
+  font-size: 1.1em;
 }
 .rm-desktop li ul {
   display: none;
@@ -5465,10 +5411,6 @@ h1 {
   background-color: black;
   color: white;
   font-size: 1.4em;
-  padding: 5em 0.6em 0.1em 0.4em;
-}
-#rm-menu-buttom {
-  padding: 5em 0.6em 0.1em 0.4em;
 }
 /* About -------------------------------------- */
 .region-main.has-sidebar-right {
@@ -5518,12 +5460,6 @@ h1 {
 .toc ul li {
   display: block;
 }
-/* Blog --------------------------*/
-.figure.kiwi {
-  float: right;
-  clear: both;
-  padding: 0.3em;
-}
 .next-previous {
   display: inline;
   float: left;
@@ -5550,12 +5486,74 @@ h1 {
 }
 /* Byline -------------------------------------- */
 .figure.left img {
-  display: none;
+  float: left;
+  padding: 10px;
+}
+.author-byline {
+  display: inline;
+  float: left;
+  width: 15.625%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 .author-byline p {
-  display: none;
+  padding-top: 30px;
+  width: 40em;
 }
-/* Footer -------------------------------------- */
+/* Main 3 colums kmom06 -------------------------------------- */
+.header-main {
+  text-align: center;
+}
+.region-main {
+  margin: auto;
+  display: inline;
+  float: left;
+  width: 90.625%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+}
+.col-1 {
+  float: left;
+  width: 20%;
+  padding-left: 3em;
+}
+.col-2 {
+  float: left;
+  padding-left: 1em;
+  width: 40%;
+}
+.col-3 {
+  float: left;
+  padding-left: 6em;
+  width: 20%;
+}
+.figure.dogs img {
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+}
+.wrap-all {
+  position: relative;
+  -webkit-animation-name: example;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 5s;
+}
+/* Standard syntax */
+@keyframes example {
+  0% {
+    background-color: white;
+    left: -900px;
+    top: 0px;
+  }
+  50% {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Footer  -------------------------------------- */
 .inner-wrap-footer {
   display: inline;
   float: left;
@@ -5574,7 +5572,6 @@ h1 {
 .footer-column p,
 .footer-column h4 {
   color: #fff;
-  font-family: 'Indie Flower', cursive;
 }
 .site-footer {
   display: inline;

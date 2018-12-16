@@ -1,6 +1,6 @@
 ---
 ---
-##Design principer
+##06 Design principer
 
 
 
@@ -89,7 +89,7 @@ Sammanfatta ditt resultat i en analys och skriv generellt om din studie, kom du 
 
 Jag anser att alla tre sidorna var moderna, om de fokuserade på färg, form eller minimalism så var det moderna. De låg i framkanten av webbdesign. Jag tror inte jag hade fått samma resultat om jag hade sökt på olika blomster butikers hemsidor. Detta tror jag också delvis beror på deras ekonomiska möjligheter. En arkitektbyrå har ju till exempel inget skyllt fönster utan de måste använda sig mer av det digitala rummet.
 
-De använde alla ett speciellt sätt att presentera sina projekt. De fick fram dem, dock på olika sätt. Om det var visa "scale" eller minimalism så låg fokuset alltid på tigigare projekt. På deras portfolio. 
+De använde alla ett speciellt sätt att presentera sina projekt. De fick fram dem, dock på olika sätt. Om det var visa "scale" eller minimalism så låg fokuset alltid på tigigare projekt. På deras portfolio.
 
 Övrigt
 -----------------------
